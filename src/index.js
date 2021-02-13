@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import logo from './logo.svg';
+import './App.css';
+import 'aframe';
+import 'aframe-particle-system-component';
 
 ReactDOM.render(
   <React.StrictMode>
