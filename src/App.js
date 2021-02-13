@@ -133,6 +133,8 @@ class App extends React.Component {
 <Entity camera look-controls geometry={{primitive: 'box'}} material={{color: '#7cb275'}} position={{x: 3, y: -1, z: -1}}/>
 <Entity camera look-controls geometry={{primitive: 'box'}} material={{color: '#7cb275'}} position={{x: 3, y: -1, z: 0}}/>
 
+<Entity rigid-body={{x:2, y:3, z:3}} camera look-controls geometry={{primitive: 'sphere'}} material={{color: '#7cb275'}} position={{x: 3, y: 4, z: 0}} scale={{x: 2, y: 2, z: 2}}/>
+
 
 <Entity particle-system={{preset: 'snow'}}/>
 <Entity geometry={{primitive: 'plane'}} material={{color: '#c0f9ec'}} scale={{x: 10, y: 10, z:10}} position={{x: 0, y: 0, z: -5}}/>
