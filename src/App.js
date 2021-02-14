@@ -16,7 +16,7 @@ class App extends React.Component {
 
   render(){
   return (
-<Scene shadow="type: basic" physics = "debug=true" > 
+<Scene physics = "debug=true" > 
 
 <Entity camera look-controls geometry={{primitive: 'box'}} material={{color: '#b1b4f4'}} position={{x: 4, y: 2, z: -5}}/>
 <Entity camera look-controls geometry={{primitive: 'box'}} material={{color: '#b1b4f4'}} position={{x: 4, y: 1, z: -5}}/>
@@ -33,9 +33,6 @@ class App extends React.Component {
 <Entity particle-system={{preset: 'snow'}}/>
 
 <a-entity light="type: point; angle: 25; shadowCameraVisible: true; castShadow: true; color: #FFF; intensity: 1.6"  position="-1s.5 3 10"></a-entity>
-
-<a-gltf-model src="tree.gltf" shadow="cast: true"></a-gltf-model>
-<a-circle id="ground" radius="10" rotation="-90 0 0" shadow="receive: true"></a-circle>
 
 <Entity particle-system={{preset: 'snow'}}/>
 <Entity geometry={{primitive: 'plane'}} material={{color: '#a8a8a8', roughness: 0.05}} rotation="-90 0 0" scale={{x: 105, y: 105, z:105}} position={{x: 5, y: -1, z: -5}}/>
