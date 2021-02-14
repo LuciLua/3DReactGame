@@ -32,14 +32,14 @@ class App extends React.Component {
 
 <Entity camera look-controls geometry={{primitive: 'cylinder'}} material={{color: '#7cb2a5'}} position={{x: 3, y: 7, z: 0}}/>
 
-<a-sky id="image-360" radius="10" src="https://i.imgur.com/DrDomrj.jpg"></a-sky>
+<a-sky id="image-360" radius="10" color="#000000"></a-sky>
 
 <Entity particle-system={{preset: 'snow'}}/>
 
 <a-entity light="type: point; angle: 25; shadowCameraVisible: true; castShadow: true; color: #FFF; intensity: 1.6"  position="-1s.5 3 10"></a-entity>
 
 <Entity particle-system={{preset: 'snow'}}/>
-<Entity geometry={{primitive: 'plane'}} material={{color: '#a8a8a8', roughness: 0.05}} rotation="-90 0 0" scale={{x: 105, y: 105, z:105}} position={{x: 5, y: -1, z: -5}}/>
+<Entity geometry={{primitive: 'plane'}} material={{color: '#a8a8a8', roughness: 0.05}} rotation="-90 0 0" scale={{x: 10, y: 10, z:10}} position={{x: 5, y: -1, z: -5}}/>
 <Entity rotation={{x:90, y:-90, z:0 }} scale={{x: 20, y:20, z:20}} position={{x:1, y:8, z:6 }} text={{value: 'Developed by: \n Luci', color: '#fff'}}/>
 <Entity rotation={{x:90, y:-90, z:0 }} scale={{x: 15, y:15, z:15}} position={{x:-2, y:8, z:5 }} text={{value: 'Construindo mundos', color: '#fff'}}/>
 
@@ -81,13 +81,6 @@ class App extends React.Component {
   geometry="primitive: plane; height: 1; width: 1"
   material="shader: flat; src: https://i.imgur.com/IDCLklw.jpg"></a-entity>
 
-<a-camera>
-  <a-cursor
-    id="cursor"
-    animation__click="property: scale; from: 0.1 0.1 0.1; to: 1 1 1; easing: easeInCubic; dur: 150; startEvents: click"
-    animation__clickreset="property: scale; to: 0.1 0.1 0.1; dur: 1; startEvents: animationcomplete__click"
-    animation__fusing="property: scale; from: 1 1 1; to: 0.1 0.1 0.1; easing: easeInCubic; dur: 150; startEvents: fusing"></a-cursor>
-</a-camera>
 
 </Scene>
 
