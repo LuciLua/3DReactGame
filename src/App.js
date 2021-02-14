@@ -6,11 +6,8 @@ import 'aframe';
 import 'aframe-particle-system-component';
 import {Entity, Scene} from 'aframe-react';
 
-
 //require aframe physics system
 //require('aframe-physics-system');
-
-
 
 class App extends React.Component {
 
@@ -124,23 +121,13 @@ class App extends React.Component {
     scale={{x: 6, y: 1, z: 0.2}}
     rotation={{x:0, y:90, z:0}}
     position={{x: -5, y:0.3, z: 0}}/>
-
-
-
-
-
 <a-entity class="link"></a-entity>
-
 
 <a-Entity class="img"
 img 
 img src={require('./1.jpg')} scale={{x:10, y:10, z:10}} />
-
 </Scene>
-
 );
-
 }
 }
-
 export default App ;
