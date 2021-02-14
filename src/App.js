@@ -133,12 +133,13 @@ class App extends React.Component {
 <Entity camera look-controls geometry={{primitive: 'box'}} material={{color: '#7cb275'}} position={{x: 3, y: -1, z: -1}}/>
 <Entity camera look-controls geometry={{primitive: 'box'}} material={{color: '#7cb275'}} position={{x: 3, y: -1, z: 0}}/>
 
-<Entity rigid-body={{x:2, y:3, z:3}} camera look-controls geometry={{primitive: 'sphere'}} material={{color: '#7cb275'}} position={{x: 3, y: 4, z: 0}} scale={{x: 2, y: 2, z: 2}}/>
-
+<Entity rigid-body={{x:2, y:3, z:3}} camera look-controls geometry={{primitive: 'sphere'}} material={{color: '#7cb275'}} position={{x: -5, y: 0, z: -4}} scale={{x: 2, y: 2, z: 2}}/>
+<a-entity obj-model="obj: url('https://trello.com/c/QsdDZtl6/142-3d-models')" position={{x: -7, y: 0, z: -4}} dynamic-body="shape: box; mass: 2"></a-entity>
 
 <Entity particle-system={{preset: 'snow'}}/>
-<Entity geometry={{primitive: 'plane'}} material={{color: '#c0f9ec'}} scale={{x: 10, y: 10, z:10}} position={{x: 0, y: 0, z: -5}}/>
-<Entity scale={{x: 20, y:20, z:20}} position={{x:6, y:1, z:6 }} text={{value: 'Oie! To experiementando coisa nova galera ;)', color: '#000000'}}/>
+<Entity geometry={{primitive: 'plane'}} material={{color: '#a8a8a8'}} rotation="-90 0 0" scale={{x: 105, y: 105, z:105}} position={{x: 5, y: -1, z: -5}}/>
+<Entity rotation={{x:0, y:-90, z:0 }} scale={{x: 20, y:20, z:20}} position={{x:1, y:5, z:1 }} text={{value: 'Developed by', color: '#000000'}}/>
+
 </Scene>
 );
 
