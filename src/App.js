@@ -32,8 +32,6 @@ class App extends React.Component {
 
 <Entity particle-system={{preset: 'snow'}}/>
 
-<a-entity cursor="rayOrigin: mouse"></a-entity>
-
 <a-entity light="type: point; angle: 25; shadowCameraVisible: true; castShadow: true; color: #FFF; intensity: 1.6"  position="-1s.5 3 10"></a-entity>
 
 <a-gltf-model src="tree.gltf" shadow="cast: true"></a-gltf-model>
