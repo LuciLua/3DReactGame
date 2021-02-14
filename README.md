@@ -1,7 +1,7 @@
 # Preview
 
 
-<img src=”imagem.png”>
+<img src="./imagem.png">
 
 
 # Getting Started with Create React App
