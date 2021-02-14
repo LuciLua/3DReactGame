@@ -81,7 +81,6 @@ class App extends React.Component {
   geometry="primitive: plane; height: 1; width: 1"
   material="shader: flat; src: https://i.imgur.com/IDCLklw.jpg"></a-entity>
 
-
 </Scene>
 
 );
